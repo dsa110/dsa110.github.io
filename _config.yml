@@ -4,6 +4,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - links.md
+  - index.md
 
 theme: jekyll-theme-midnight
