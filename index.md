@@ -6,20 +6,41 @@
 
 [T2](https://dsa110.github.io/dsa110-T2/)
 
+## Tests
+
+[Travis-CI](https://travis-ci.com/github/dsa110)
+
+[![dsa110-calib](https://travis-ci.com/dsa110/dsa110-calib.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-calib)
+[![dsa110-antpos](https://travis-ci.com/dsa110/dsa110-antpos.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-antpos)
+[![dsa110-T2](https://travis-ci.com/dsa110/dsa110-T2.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-T2)
+[![ds110-meridian-fs](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-meridian-fs)
+
 ## Repo Links
+
+### Hardware
+
+[DSA store (etcd)](https://github.com/dsa110/dsa110-pyutils)
+
+[DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
 
 [M&C bokeh](https://github.com/dsa110/dsa110-vis)
 
-[dsa store (etcd)](https://github.com/dsa110/dsa110-pyutils)
+[DSA antpos](https://github.com/dsa110/dsa110-antpos)
 
-[dsa hardware M&C](https://github.com/dsa110/dsa110-hwmc)
+[Antenna alignment](https://github.com/dsa110/dsa110-alignment)
 
-[snap control](https://github.com/dsa110/SNAP_control)
+### Digital
 
-[antenna alignment](https://github.com/dsa110/dsa110-alignment)
+[SNAP control](https://github.com/dsa110/SNAP_control)
 
-[fringe stopping](https://github.com/dsa110/dsa110-meridian-fs)
+### Calibration
 
-[multibeam heimdall](https://github.com/dsa110/dsa110-mbheimdall)
+[Fringe stopping](https://github.com/dsa110/dsa110-meridian-fs)
 
-[cal tools](https://github.com/dsa110/dsa110-caltools)
+[Calibration](https://github.com/dsa110/dsa110-calib)
+
+[Calibration tools](https://github.com/dsa110/dsa110-caltools)
+
+### Search
+
+[MB Heimdall](https://github.com/dsa110/dsa110-mbheimdall)
