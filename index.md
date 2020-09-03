@@ -31,7 +31,11 @@
 
 ### Digital
 
-[SNAP control](https://github.com/dsa110/SNAP_control)
+[SNAP control](https://github.com/dsa110/SNAP_control/tree/v3)
+
+[SNAP power](https://github.com/dsa110/dsa110-powersnap)
+
+[X engine](https://github.com/dsa110/dsa110-xengine)
 
 ### Calibration
 
