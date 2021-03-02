@@ -16,13 +16,13 @@ Set up ssh tunnels to dsa-storage first
 ## Code Tests and Docs
 
 [Issues](https://github.com/dsa110/dsa110-issues)
-
+|
 [Calibration](https://dsa110.github.io/dsa110-calib/) [![dsa110-calib](https://travis-ci.com/dsa110/dsa110-calib.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-calib)
-
+|
 [T2](https://dsa110.github.io/dsa110-T2/) [![dsa110-T2](https://travis-ci.com/dsa110/dsa110-T2.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-T2)
-
+|
 [antpos](https://github.com/dsa110/dsa110-antpos) [![dsa110-antpos](https://travis-ci.com/dsa110/dsa110-antpos.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-antpos)
-
+|
 [fringe stopping](https://github.com/dsa110/dsa110-meridian-fs) [![ds110-meridian-fs](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-meridian-fs)
 
 
