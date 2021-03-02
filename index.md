@@ -1,19 +1,15 @@
-# DSA-110 Software
+# DSA-110 Software Status
+Start ssh tunnels to get links at OVRO to work under localhost.
 
-## Code Documentation
+## Code Tests and Docs
 
-[Calibration](https://dsa110.github.io/dsa110-calib/)
+[Calibration](https://dsa110.github.io/dsa110-calib/) [![dsa110-calib](https://travis-ci.com/dsa110/dsa110-calib.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-calib)
 
-[T2](https://dsa110.github.io/dsa110-T2/)
+[T2](https://dsa110.github.io/dsa110-T2/) [![dsa110-T2](https://travis-ci.com/dsa110/dsa110-T2.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-T2)
 
-## Tests
+[antpos](https://github.com/dsa110/dsa110-antpos) [![dsa110-antpos](https://travis-ci.com/dsa110/dsa110-antpos.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-antpos)
 
-[Travis-CI](https://travis-ci.com/github/dsa110)
-
-[![dsa110-calib](https://travis-ci.com/dsa110/dsa110-calib.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-calib)
-[![dsa110-antpos](https://travis-ci.com/dsa110/dsa110-antpos.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-antpos)
-[![dsa110-T2](https://travis-ci.com/dsa110/dsa110-T2.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-T2)
-[![ds110-meridian-fs](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-meridian-fs)
+[fringe stopping](https://github.com/dsa110/dsa110-meridian-fs) [![ds110-meridian-fs](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-meridian-fs)
 
 ## Repo Links
 
