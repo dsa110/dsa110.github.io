@@ -15,12 +15,6 @@ Start ssh tunnels to get links at OVRO to work under localhost.
 
 ### Hardware
 
-[DSA store (etcd)](https://github.com/dsa110/dsa110-pyutils)
-
-[DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
-
-[M&C bokeh](https://github.com/dsa110/dsa110-vis)
-
 [DSA antpos](https://github.com/dsa110/dsa110-antpos)
 
 [Antenna alignment](https://github.com/dsa110/dsa110-alignment)
@@ -44,3 +38,23 @@ Start ssh tunnels to get links at OVRO to work under localhost.
 ### Search
 
 [MB Heimdall](https://github.com/dsa110/dsa110-mbheimdall)
+|
+[T2](https://dsa110.github.io/dsa110-T2/)
+
+### Analysis and Data Management
+
+[bbproc](https://github.com/dsa110/dsa110-bbproc)
+
+[procfil](https://github.com/dsa110/dsa110-procfil)
+
+[scripts](https://github.com/dsa110/dsa110-xengine/tree/v0.9/scripts) **Need to move these**
+
+### M&C
+
+[M&C and utilities](https://github.com/dsa110/dsa110-pyutils)
+
+[DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
+
+[M&C bokeh](https://github.com/dsa110/dsa110-vis)
+
+[Jupyter notebooks](https://github.com/dsa110/dsa-notebooks)
