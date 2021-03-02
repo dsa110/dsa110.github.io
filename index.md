@@ -1,5 +1,16 @@
 # DSA-110 Software Status
-Start ssh tunnels to get links at OVRO to work under localhost.
+
+## Web services
+Set up ssh tunnels to dsa-storage first
+
+[Web UI](http://localhost:9090)
+|
+[Grafana](http://localhost:3000)
+|
+[Antenna/BEB status](http://localhost:5006)
+|
+[Candidate Hiplot](http://localhost:5007)
+
 
 ## Code Tests and Docs
 
@@ -43,11 +54,13 @@ Start ssh tunnels to get links at OVRO to work under localhost.
 
 ### Analysis and Data Management
 
+[Analysis notebooks](https://github.com/dsa110/dsa-notebooks)
+|
 [bbproc](https://github.com/dsa110/dsa110-bbproc)
 |
 [procfil](https://github.com/dsa110/dsa110-procfil)
 |
-[scripts](https://github.com/dsa110/dsa110-xengine/tree/v0.9/scripts) **Need to move these**
+[scripts](https://github.com/dsa110/dsa110-xengine/tree/v0.9/scripts) (scripts to be reorganized)
 
 ### M&C
 
@@ -55,6 +68,4 @@ Start ssh tunnels to get links at OVRO to work under localhost.
 |
 [DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
 |
-[M&C bokeh](https://github.com/dsa110/dsa110-vis)
-|
-[Jupyter notebooks](https://github.com/dsa110/dsa-notebooks)
+[Antenna status (bokeh)](https://github.com/dsa110/dsa110-vis)
