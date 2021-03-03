@@ -11,6 +11,14 @@ Tunnel to dsa-storage:
 [Antenna/BEB status](http://localhost:5006)
 |
 [Candidate Hiplot](http://localhost:5007)
+|
+[Jupyter server](http://localhost:8900)
+
+Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects/dsa110observerwiki/Start%20digital%20and%20search%20pipeline.aspx):
+
+| Task | Script | Where | How to Run | Input | Output | Repo |
+--------------------------
+F-engine |    | SNAPs 00-07 | snapservice |    | corr01--corr16 | [SNAP_control](https://github.com/dsa110/SNAP_control) |
 
 
 ## Code Tests and Docs
