@@ -28,16 +28,15 @@ Set up ssh tunnels to dsa-storage first
 
 ## Repo Links
 
-
-### Hardware
-
+**Hardware*
+|
 [DSA antpos](https://github.com/dsa110/dsa110-antpos)
 |
 [Antenna alignment](https://github.com/dsa110/dsa110-alignment)
 
 
-### Digital
-
+**Digital**
+|
 [SNAP control](https://github.com/dsa110/SNAP_control/tree/v3)
 |
 [SNAP power](https://github.com/dsa110/dsa110-powersnap)
@@ -45,8 +44,8 @@ Set up ssh tunnels to dsa-storage first
 [X engine](https://github.com/dsa110/dsa110-xengine)
 
 
-### Calibration
-
+**Calibration**
+|
 [Fringe stopping](https://github.com/dsa110/dsa110-meridian-fs)
 |
 [Calibration](https://github.com/dsa110/dsa110-calib)
@@ -54,15 +53,15 @@ Set up ssh tunnels to dsa-storage first
 [Calibration tools](https://github.com/dsa110/dsa110-caltools)
 
 
-### Search
-
+**Search**
+|
 [MB Heimdall](https://github.com/dsa110/dsa110-mbheimdall)
 |
 [T2](https://dsa110.github.io/dsa110-T2/)
 
 
-### Analysis and Data Management
-
+**Analysis and Data Management**
+|
 [Analysis notebooks](https://github.com/dsa110/dsa-notebooks)
 |
 [bbproc](https://github.com/dsa110/dsa110-bbproc)
@@ -72,8 +71,8 @@ Set up ssh tunnels to dsa-storage first
 [scripts](https://github.com/dsa110/dsa110-xengine/tree/v0.9/scripts) (scripts to be reorganized)
 
 
-### M&C
-
+**M&C**
+|
 [M&C and utilities](https://github.com/dsa110/dsa110-pyutils)
 |
 [DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
