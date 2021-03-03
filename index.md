@@ -2,8 +2,8 @@
 
 
 ## Web services
-Set up ssh tunnels to dsa-storage first
-
+Tunnel to dsa-storage:
+|
 [Web UI](http://localhost:9090)
 |
 [Grafana](http://localhost:3000)
@@ -28,7 +28,7 @@ Set up ssh tunnels to dsa-storage first
 
 ## Repo Links
 
-**Hardware*
+**Hardware**
 |
 [DSA antpos](https://github.com/dsa110/dsa110-antpos)
 |
