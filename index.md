@@ -19,10 +19,10 @@ Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects
 Task | Script | Where | How to Run | Input | Output | Repo
 ---- | ------ | ------| ---------- | ----- | ------ | ----
 F-engine | ? | SNAPs 00--07 | snapservice | -- | corr01--corr16 | [SNAP_control](https://github.com/dsa110/SNAP_control)
-Correlator/BF  | ? | corr 01--16  | `dsacon corr start/set` | F-engine | calibration, heimdall | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine)
+Correlator/BF  | ? | corr 01--16  | `dsacon corr start/set` | F-engine | calibration, heimdall | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) (also controls [dsa110-meridian-fs](https://github.com/dsa110/dsa110-meridian-fs))
 Heimdall (T1) | ? | corr17--20 | ? | BF | T2 | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall)
 T2 | `run_T2.py` | corr00 | screen session "T2" | Heimdall | voltage trigger (via etcd) | [dsa110-T2](https://github.com/dsa110/dsa110-T2)
-Calibration | ? | dsa-storage | ? | correlator | BF?, etcd | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
+Calibration | preprocessing_service.py, calibration_service.py, beamformerweights.py in dsa110-calib/services | dsa-storage | screens preprocessing, calibration, bfcopy | correlator | bf weights | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
 bbproc | ? | dsa-storage | ? | volage buffer | candidate plots | [dsa110-bbproc](https://github.com/dsa110/dsa110-bbproc)
 
 ## Code Tests and Docs
