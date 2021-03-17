@@ -22,7 +22,7 @@ F-engine | [snap.py](https://github.com/dsa110/SNAP_control/blob/master/scripts/
 Correlator/BF  | [corr cnf](https://github.com/dsa110/dsa110-cnf/blob/master/config_corr_nodes.yaml) | corr 01--16  | `/cmd/corr`, `dsacon corr start/set/stop` | F-engine | calibration, heimdall | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) (also controls [dsa110-meridian-fs](https://github.com/dsa110/dsa110-meridian-fs))
 Heimdall (T1) | [search cnf](https://github.com/dsa110/dsa110-cnf/blob/master/config_search_nodes.yaml) | corr17--20 | `/cmd/corr`, `dsacon corr start/stop` | BF | T2 | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall)
 T2 | `run_T2.py` | corr00 | screen session "T2" | Heimdall | voltage trigger (via etcd) | [dsa110-T2](https://github.com/dsa110/dsa110-T2)
-Calibration | preprocessing_service.py, calibration_service.py, beamformerweights.py in dsa110-calib/services | dsa-storage | screens preprocessing, calibration, bfcopy | correlator | bf weights | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
+Calibration | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | dsa-storage | /cmd/cal, /mon/cal/bfweights | correlator | bf weights | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
 T3 slack | ? | dsa-storage | ? | voltage buffer | candidate plot | ?
 bbproc? | ? | dsa-storage | ? | volage buffer | candidate plots | [dsa110-bbproc](https://github.com/dsa110/dsa110-bbproc)
 
