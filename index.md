@@ -18,7 +18,7 @@ Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects
 
 Task | Script | Where | How to Run | Input | Output | Repo
 ---- | ------ | ------| ---------- | ----- | ------ | ----
-F-engine | ? | SNAPs 00--07 | snapservice | -- | corr01--corr16 | [SNAP_control](https://github.com/dsa110/SNAP_control)
+F-engine | [snap.py](https://github.com/dsa110/SNAP_control/blob/master/scripts/snap.py) | SNAPs 00--07 | snapservice | -- | corr01--corr16 | [SNAP_control](https://github.com/dsa110/SNAP_control)
 Correlator/BF  | ? | corr 01--16  | `dsacon corr start/set` | F-engine | calibration, heimdall | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) (also controls [dsa110-meridian-fs](https://github.com/dsa110/dsa110-meridian-fs))
 Heimdall (T1) | ? | corr17--20 | ? | BF | T2 | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall)
 T2 | `run_T2.py` | corr00 | screen session "T2" | Heimdall | voltage trigger (via etcd) | [dsa110-T2](https://github.com/dsa110/dsa110-T2)
