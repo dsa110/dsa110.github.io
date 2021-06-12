@@ -23,7 +23,7 @@ Correlator/BF  | [corr cnf](https://github.com/dsa110/dsa110-cnf/blob/master/con
 Heimdall (T1) | [search cnf](https://github.com/dsa110/dsa110-cnf/blob/master/config_search_nodes.yaml) | corr17--20 | `/cmd/corr`, `dsacon corr start/stop` | BF | T2 | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall)
 T2 | `run_T2.py` | corr00 | screen session "T2" | Heimdall | voltage trigger (via etcd) | [dsa110-T2](https://github.com/dsa110/dsa110-T2)
 Calibration | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | dsa-storage | /cmd/cal, /mon/cal/bfweights | correlator | bf weights | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
-T3 slack | ? | dsa-storage | ? | voltage buffer | candidate plot | ?
+T3 slack | [send_cands.py](https://github.com/dsa110/dsa110-T3/blob/main/services/send_cands.py) | h23 | user service | filterbank files | candidate plot | [dsa110-T3](https://github.com/dsa110/dsa110-T3)
 bbproc? | ? | dsa-storage | ? | volage buffer | candidate plots | [dsa110-bbproc](https://github.com/dsa110/dsa110-bbproc)
 
 ## Code Tests and Docs
