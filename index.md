@@ -1,7 +1,7 @@
 # DSA-110 Software Status
 
 
-## Web services
+## Web Apps
 
 [![Web UI](static/webui.png "WebUI")](http://localhost:9090)
 [![Grafana](static/grafana.png "Grafana")](http://localhost:3000)
@@ -10,15 +10,13 @@
 [![Jupyter server](static/jupyter.png "Jupyter")](http://localhost:8900)
 [![MAAS](static/maas.png "MAAS")](http://localhost:5240)
 
-Services:
-
-[dsa110-meridian-fs?](https://github.com/dsa110/dsa110-meridian-fs)
+## Services
 
 Name | Container | etcd key | Repo | command
 ---- | ------ | ------| ---------- | ----- | ------ | ----
 snap | snapserver | /cmd/snap? | [SNAP_control](https://github.com/dsa110/SNAP_control) | 
 corr | corr 01-16 | /cmd/corr | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) | `dsacon corr start/set/stop`
-search | corr 17-20 | /cmd/corr | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall) | `dsacon corr start/set/stop`
+search | corr 17-20 | /cmd/corr | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall), [dsa110-meridian-fs?](https://github.com/dsa110/dsa110-meridian-fs) | `dsacon corr start/set/stop`
 t2 | corr00 | none | [dsa110-T2](https://github.com/dsa110/dsa110-T2) | `run_T2.py`
 preproc, calibration, bfcopy | dsa-storage | /cmd/cal, /mon/cal/bfweights | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | ?
 voltage | corr 01-16 | ? | ?
