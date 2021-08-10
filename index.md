@@ -3,7 +3,7 @@
 
 ## Web services
 
-[![Web UI](static/webui.png "WebUI")](http://localhost:9090)
+|[![Web UI](static/webui.png "WebUI")](http://localhost:9090)
 |
 [![Grafana](static/grafana.png "Grafana")](http://localhost:3000)
 |
@@ -13,7 +13,7 @@
 |
 [![Jupyter server](static/jupyter.png "Jupyter")](http://localhost:8900)
 |
-[![MAAS](static/maas.png "MAAS")](http://localhost:5240)
+[![MAAS](static/maas.png "MAAS")](http://localhost:5240)|
 
 Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects/dsa110observerwiki/Start%20digital%20and%20search%20pipeline.aspx):
 
