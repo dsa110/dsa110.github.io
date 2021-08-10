@@ -3,7 +3,7 @@
 
 ## Web services
 
-|[![Web UI](static/webui.png "WebUI")](http://localhost:9090)
+[![Web UI](static/webui.png "WebUI")](http://localhost:9090)
 |
 [![Grafana](static/grafana.png "Grafana")](http://localhost:3000)
 |
@@ -13,19 +13,23 @@
 |
 [![Jupyter server](static/jupyter.png "Jupyter")](http://localhost:8900)
 |
-[![MAAS](static/maas.png "MAAS")](http://localhost:5240)|
+[![MAAS](static/maas.png "MAAS")](http://localhost:5240)
 
-Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects/dsa110observerwiki/Start%20digital%20and%20search%20pipeline.aspx):
+Services:
 
-Task | Script/Cnf | Where | How to Run | Input | Output | Repo
+[dsa110-meridian-fs?](https://github.com/dsa110/dsa110-meridian-fs)
+
+Name | Container | etcd key | Repo | command
 ---- | ------ | ------| ---------- | ----- | ------ | ----
-F-engine | [snap.py](https://github.com/dsa110/SNAP_control/blob/master/scripts/snap.py) | SNAPs 00--07 | snapservice, `/cmd/snap` | -- | corr01--corr16 | [SNAP_control](https://github.com/dsa110/SNAP_control)
-Correlator/BF  | [corr cnf](https://github.com/dsa110/dsa110-cnf/blob/master/config_corr_nodes.yaml) | corr 01--16  | `/cmd/corr`, `dsacon corr start/set/stop` | F-engine | calibration, heimdall | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) (also controls [dsa110-meridian-fs](https://github.com/dsa110/dsa110-meridian-fs))
-Heimdall (T1) | [search cnf](https://github.com/dsa110/dsa110-cnf/blob/master/config_search_nodes.yaml) | corr17--20 | `/cmd/corr`, `dsacon corr start/stop` | BF | T2 | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall)
-T2 | `run_T2.py` | corr00 | screen session "T2" | Heimdall | voltage trigger (via etcd) | [dsa110-T2](https://github.com/dsa110/dsa110-T2)
-Calibration | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | dsa-storage | /cmd/cal, /mon/cal/bfweights | correlator | bf weights | [dsa110-calib](https://github.com/dsa110/dsa110-calib)
-T3 slack | [send_cands.py](https://github.com/dsa110/dsa110-T3/blob/main/services/send_cands.py) | h23 | user service | filterbank files | candidate plot | [dsa110-T3](https://github.com/dsa110/dsa110-T3)
-bbproc? | ? | dsa-storage | ? | volage buffer | candidate plots | [dsa110-bbproc](https://github.com/dsa110/dsa110-bbproc)
+snap | snapserver | /cmd/snap? | [SNAP_control](https://github.com/dsa110/SNAP_control) | 
+corr | corr 01-16 | /cmd/corr | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) | `dsacon corr start/set/stop`
+search | corr 17-20 | /cmd/corr | [dsa110-mbheimdall](https://github.com/dsa110/dsa110-mbheimdall) | `dsacon corr start/set/stop`
+t2 | corr00 | none | [dsa110-T2](https://github.com/dsa110/dsa110-T2) | `run_T2.py`
+preproc, calibration, bfcopy | dsa-storage | /cmd/cal, /mon/cal/bfweights | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | ?
+voltage | corr 01-16 | ? | ?
+triggercopy | dsa-storage | ? | ?
+send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa110-T3/blob/main/services/send_cands.py) | ?
+
 
 ## Code Tests and Docs
 
