@@ -2,19 +2,18 @@
 
 
 ## Web services
-Tunnel to dsa-storage:
+
+[![Web UI](static/webui.png "WebUI")](http://localhost:9090)
 |
-[![Web UI](static/webui.png)](http://localhost:9090)
+[![Grafana](static/grafana.png "Grafana")](http://localhost:3000)
 |
-[![Grafana](static/grafana.png)](http://localhost:3000)
+[![Antenna/BEB status](static/bokeh.png "Bokeh status")](http://localhost:5006)
 |
-[![Antenna/BEB status](static/bokeh.png)](http://localhost:5006)
+[![Candidate Hiplot](static/hiplot.png "hiplot T2")](http://localhost:5007/?hip.load_uri=%22<set date string>%2Fcluster_output.csv%22&hip.filters=%5B%5D&hip.color_by=%22snr%22&hip.PARALLEL_PLOT.order=%5B%22dm%22%2C%22ibeam%22%2C%22ibox%22%2C%22mjds%22%2C%22snr%22%2C%22trigger%22%5D&hip.PARALLEL_PLOT.hide=%5B%22cl%22%2C%22cntb%22%2C%22cntc%22%2C%22idm%22%2C%22if%22%2C%22itime%22%5D&hip.XY.axis_y=%22dm%22&hip.XY.axis_x=%22mjds%22&hip.params.ibox.type=%22numericlog%22&hip.PARALLEL_PLOT.invert=%5B%5D)
 |
-[![Candidate Hiplot](static/hiplot.png)](http://localhost:5007/?hip.load_uri=%22<set date string>%2Fcluster_output.csv%22&hip.filters=%5B%5D&hip.color_by=%22snr%22&hip.PARALLEL_PLOT.order=%5B%22dm%22%2C%22ibeam%22%2C%22ibox%22%2C%22mjds%22%2C%22snr%22%2C%22trigger%22%5D&hip.PARALLEL_PLOT.hide=%5B%22cl%22%2C%22cntb%22%2C%22cntc%22%2C%22idm%22%2C%22if%22%2C%22itime%22%5D&hip.XY.axis_y=%22dm%22&hip.XY.axis_x=%22mjds%22&hip.params.ibox.type=%22numericlog%22&hip.PARALLEL_PLOT.invert=%5B%5D)
+[![Jupyter server](static/jupyter.png "Jupyter")](http://localhost:8900)
 |
-[![Jupyter server](static/jupyter.png)](http://localhost:8900)
-|
-[![MAAS](static/maas.jpg)](http://localhost:5240)
+[![MAAS](static/maas.jpg "MAAS")](http://localhost:5240)
 
 Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects/dsa110observerwiki/Start%20digital%20and%20search%20pipeline.aspx):
 
