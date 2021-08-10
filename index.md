@@ -14,7 +14,7 @@ Tunnel to dsa-storage:
 |
 [Jupyter server](http://localhost:8900)
 |
-![test](static/maas.jpg) [MAAS](http://localhost:5240)
+[![MAAS](static/maas.jpg)](http://localhost:5240)
 
 Real-time processes [diagram](https://caltech.sharepoint.com/sites/ovro/projects/dsa110observerwiki/Start%20digital%20and%20search%20pipeline.aspx):
 
