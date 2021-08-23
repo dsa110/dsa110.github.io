@@ -21,7 +21,7 @@ search | corr 17-20 | /cmd/corr | [dsa110-mbheimdall](https://github.com/dsa110/
 t2 | corr00 | none | [dsa110-T2](https://github.com/dsa110/dsa110-T2) | `run_T2.py`
 preproc, calibration, bfcopy | dsa-storage | /cmd/cal, /mon/cal/bfweights | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | ?
 voltage | corr 01-16 | /mon/corr/1/trigger | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) | `look_after_dumps.py`
-triggercopy | dsa-storage | ? | ?
+triggercopy | dsa-storage | `/cmd/corr/docopy`, `/cmd/datestring` | TBD | `run_rsync.py`, `gen_T3_inspect.py`
 send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa110-T3/blob/main/services/send_cands.py) | ?
 
 
