@@ -26,20 +26,18 @@ send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa11
 
 
 ## Operations and Docs
-
+|
 [Observer on duty procedure](https://caltech.sharepoint.com/sites/ovro/projects/_layouts/15/guestaccess.aspx?guestaccesstoken=57nyO0SQ5zF9ZAPSCFxi7YYLCvFydqOI8RpTHwFkUWU%3D&docid=2_0c25a024999414027bf66c42cb1d77ead&rev=1&e=uVcc9v)
 |
 [Issues](https://github.com/dsa110/dsa110-issues)
 |
-[dsautils](https://github.com/dsa110/dsa110-pyutils)
+[myrepos](https://github.com/dsa110/dsa110-shell)
 |
-[myrepos code deployment](https://github.com/dsa110/dsa110-shell)
+[configuration](https://github.com/dsa110/dsa110-cnf)
 |
-[configuration parameters](https://github.com/dsa110/dsa110-cnf)
+[scheduling](https://github.com/dsa110/dsa110-controlscripts)
 |
-[Control scripts](https://github.com/dsa110/dsa110-controlscripts)
-|
-[systemd service configurations](https://github.com/dsa110/dsa110-systemd)
+[systemd services](https://github.com/dsa110/dsa110-systemd)
 
 ## Repo Links
 
@@ -76,7 +74,7 @@ send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa11
 
 
 **Analysis and Data Management**
-
+|
 [T3](https://github.com/dsa110/dsa110-T3)
 |
 [Events and alerts](https://github.com/dsa110/dsa110-event)
@@ -94,4 +92,4 @@ send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa11
 |
 [DSA hardware M&C](https://github.com/dsa110/dsa110-hwmc)
 |
-[Antenna status (bokeh)](https://github.com/dsa110/dsa110-vis)
+[System status (bokeh)](https://github.com/dsa110/dsa110-vis)
