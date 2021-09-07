@@ -25,18 +25,21 @@ triggercopy | dsa-storage | `/cmd/corr/docopy`, `/cmd/datestring` | TBD | `run_r
 send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa110-T3/blob/main/services/send_cands.py) | ?
 
 
-## Code Tests and Docs
+## Operations and Docs
 
+[Observer on duty procedure](https://caltech.sharepoint.com/sites/ovro/projects/_layouts/15/guestaccess.aspx?guestaccesstoken=57nyO0SQ5zF9ZAPSCFxi7YYLCvFydqOI8RpTHwFkUWU%3D&docid=2_0c25a024999414027bf66c42cb1d77ead&rev=1&e=uVcc9v)
+|
 [Issues](https://github.com/dsa110/dsa110-issues)
 |
-[Calibration](https://dsa110.github.io/dsa110-calib/) [![dsa110-calib](https://travis-ci.com/dsa110/dsa110-calib.svg?branch=main)](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=main)
+[dsautils](https://github.com/dsa110/dsa110-pyutils)
 |
-[T2](https://dsa110.github.io/dsa110-T2/) [![dsa110-T2](https://travis-ci.com/dsa110/dsa110-T2.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-T2)
+[myrepos code deployment](https://github.com/dsa110/dsa110-shell)
 |
-[antpos](https://github.com/dsa110/dsa110-antpos) [![dsa110-antpos](https://travis-ci.com/dsa110/dsa110-antpos.svg?branch=master)](https://travis-ci.com/dsa110/dsa110-antpos)
+[configuration parameters](https://github.com/dsa110/dsa110-cnf)
 |
-[fringe stopping](https://github.com/dsa110/dsa110-meridian-fs) [![ds110-meridian-fs](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=main)](https://travis-ci.com/dsa110/dsa110-meridian-fs.svg?branch=main)
-
+[Control scripts](https://github.com/dsa110/dsa110-controlscripts)
+|
+[systemd service configurations](https://github.com/dsa110/dsa110-systemd)
 
 ## Repo Links
 
@@ -73,8 +76,10 @@ send_cands | h23 | datestring? | [send_cands.py](https://github.com/dsa110/dsa11
 
 
 **Analysis and Data Management**
+
+[T3](https://github.com/dsa110/dsa110-T3)
 |
-[Analysis notebooks](https://github.com/dsa110/dsa-notebooks)
+[Events and alerts](https://github.com/dsa110/dsa110-event)
 |
 [bbproc](https://github.com/dsa110/dsa110-bbproc)
 |
