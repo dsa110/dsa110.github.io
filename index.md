@@ -22,6 +22,7 @@ t2 | corr00 | none | [dsa110-T2](https://github.com/dsa110/dsa110-T2) | `run_T2.
 preproc, calibration, bfcopy | dsa-storage | /cmd/cal, /mon/cal/bfweights | [preprocess_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/preprocess_service.py), [calibration_service.py](https://github.com/dsa110/dsa110-calib/blob/main/services/calibration_service.py), beamformerweights.py | ?
 voltage | corr 01-16 | /mon/corr/1/trigger | [dsa110-xengine](https://github.com/dsa110/dsa110-xengine) | `look_after_dumps.py`
 tasktrigger, send_cands | h23 | `/cmd/corr/docopy`, `/cmd/datestring` | [tasktrigger.py](https://github.com/dsa110/dsa110-T3/blob/main/services/tasktrigger.py) | `systemctl --user start send_cands`
+declination | h23 | /mon/array/<dec, pointing_J2000, gal_dm, gal_rm> | [dsa110-pyutils](https://github.com/dsa110/dsa110-pyutils/blob/ds/dev/services/update_declination.py) | `systemctl --user start declination`
 
 ## Operations and Docs
 |
