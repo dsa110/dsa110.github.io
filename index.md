@@ -12,6 +12,7 @@ Hiplot | lxd110h23.sas.pvt:5007 | [![Candidate Hiplot](static/hiplot.png "hiplot
 Static plots | webserveruiservice:9090 | [![Static plots](static/plots.png "Plots")](http://localhost:9090/plots/) |
 MAAS | dsa110maas:5240 | [![MAAS](static/maas.png "MAAS")](http://localhost:5240) |
 Event Archive | (github) | [DSA-110 Event Archive](http://code.deepsynoptic.org/dsa110-archive) |
+RFI plots | (github) | [DSARFI](http://code.deepsynoptic.org/DSARFI) |
 
 ## Services
 
